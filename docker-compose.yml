@@ -9,3 +9,4 @@ services:
   volumes:
    - ./:/app
   command: npm run dev
+  restart: always
