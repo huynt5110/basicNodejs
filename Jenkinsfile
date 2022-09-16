@@ -5,7 +5,6 @@ pipeline {
     stage("verify tooling") {
       steps {
         sh '''
-          docker --version
           docker compose --version
         '''
       }
